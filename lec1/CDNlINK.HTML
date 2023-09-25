@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This will not get replaced</h1>
+    <div id="container">
+        <h1>This line will get replaced by line no 20 file</h1>
+    </div>
+    <h1>This will not get replaced</h1>
+
+    <!-- These are the CDN files (1st way to write react code) -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- The main js File should always be below the CDB Files -->
+    <script src="cdnLink.js"></script>
+
+</body>
+</html>
