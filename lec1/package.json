@@ -1,0 +1,18 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "This is Namaste React ep2",
+  "main": "cdnLink.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com//shivam260304/NamasteReact/tree/master/lec1)"
+  },
+  "author": "Akshay Saini",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
