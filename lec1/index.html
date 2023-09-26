@@ -13,12 +13,15 @@
     <h1>This will not get replaced</h1>
 
     <!-- These are the CDN files (1st way to write react code) -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- 2nd way is to install react and react through npm -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script> -->
     
     
     <!-- The main js File should always be below the CDB Files -->
-    <script src="cdnLink.js"></script>
+    <!-- This js file will be traeted as a browser script file by index.html -->
+    <!-- Therefore we will ad  type="module" -->
+    <script type="module" src="cdnLink.js"></script>
 
 </body>
 </html>

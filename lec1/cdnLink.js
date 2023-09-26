@@ -1,4 +1,10 @@
-    // Q--> CREATING A BASIC h1 tag using REACT ELEMENT
+// For using react from the node_modules
+import React from "react";
+import  ReactDOM from "react-dom/client";
+
+
+
+// Q--> CREATING A BASIC h1 tag using REACT ELEMENT
 
 // const heading = React.createElement("h1",{},"Hello World in React");
 
@@ -29,8 +35,8 @@ const parent = React.createElement(
         React.createElement("h2",{},"This is a h2 tag")]
     ),
     React.createElement("div",{id:"child2"},
-    [React.createElement("h1",{},"This is a h1 tag"),
-    React.createElement("h2",{},"This is a h2 tag")])
+    [React.createElement("h1",{},"This will change automatically due to parcel"),
+    React.createElement("h2",{},"Above thing is called HMR(Hot Module Replacement)")])
     ] 
     );
 
