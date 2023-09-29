@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px 30px 30px 30px;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 30px;
+    width: 100px;
+}
+
+.navitems ul{
+    padding: 5px 25px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navitems li{
+    font-size: 24px;
+}
+
+.rescard{
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 305px;
+    border: 1px solid black;
+    background-color: #eee4e4;
+}
+
+.img{
+    width: 190px;
+    padding: 5px;
+}
+
+.search{
+    margin: 10px;
+}
+
+.rescontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
