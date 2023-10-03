@@ -35,8 +35,9 @@
     padding: 5px;
 }
 
-.search{
-    margin: 10px;
+.filterButton{
+    margin: 20px;
+    cursor: pointer;
 }
 
 .rescontainer{
